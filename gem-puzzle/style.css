@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 10px solid #000;
+    max-width: 100%;
+}
+
+canvas:hover {
+    cursor: pointer;
+}
+
+.status-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#time, 
+#moves {
+    text-align: center;
+}
